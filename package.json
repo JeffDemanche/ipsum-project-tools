@@ -1,0 +1,36 @@
+{
+  "name": "ipsum-project-tools",
+  "version": "1.0.0",
+  "description": "Project file tooling for Ipsum",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "webpack serve --open --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffDemanche/ipsum-project-tools.git"
+  },
+  "author": "Jeff Demanche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffDemanche/ipsum-project-tools/issues"
+  },
+  "homepage": "https://github.com/JeffDemanche/ipsum-project-tools#readme",
+  "dependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4"
+  }
+}
